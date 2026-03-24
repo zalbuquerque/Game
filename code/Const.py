@@ -1,0 +1,36 @@
+WIN_WIDTH = 576
+WIN_HEIGHT = 324
+GROUND_HEIGHT = 58
+GROUND_Y = WIN_HEIGHT - GROUND_HEIGHT
+
+FPS = 60
+
+C_ORANGE = (255, 128, 0)
+C_YELLOW = (255, 232, 122)
+C_WHITE = (255, 255, 255)
+C_BLACK = (18, 18, 18)
+C_BROWN = (109, 74, 39)
+C_GREEN = (62, 167, 93)
+C_RED = (214, 68, 68)
+
+MENU_OPTION = ("JOGAR", "SCORE", "SAIR")
+
+PLAYER_NAME_SIZE = 4
+COIN_SCORE = 25
+
+SCORE_POS = {
+    "Title": (WIN_WIDTH / 2, 50),
+    "Subtitle": (WIN_WIDTH / 2, 84),
+    "Label": (WIN_WIDTH / 2, 105),
+    "Name": (WIN_WIDTH / 2, 135),
+    0: (WIN_WIDTH / 2, 125),
+    1: (WIN_WIDTH / 2, 145),
+    2: (WIN_WIDTH / 2, 165),
+    3: (WIN_WIDTH / 2, 185),
+    4: (WIN_WIDTH / 2, 205),
+    5: (WIN_WIDTH / 2, 225),
+    6: (WIN_WIDTH / 2, 245),
+    7: (WIN_WIDTH / 2, 265),
+    8: (WIN_WIDTH / 2, 285),
+    9: (WIN_WIDTH / 2, 305),
+}
